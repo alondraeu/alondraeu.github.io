@@ -1,0 +1,195 @@
+<!-- Wet Lab Gallery Preview Section -->
+<section id="gallery-preview" class="gallery-preview-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Wet Lab</h2>
+      <p>A glimpse into the bench — techniques, organisms, and experiments.</p>
+    </div>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-item">
+        <a href="/gallery">
+          <img src="/images/gallery/if-brain-slice.jpg" alt="Immunofluorescence - brain slice" loading="lazy"/>
+          <div class="gallery-overlay">
+            <span>Immunofluorescence</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="/gallery">
+          <img src="/images/gallery/gevi-hydra.jpg" alt="GEVI expression in Hydra vulgaris" loading="lazy"/>
+          <div class="gallery-overlay">
+            <span>GEVI · Hydra vulgaris</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="/gallery">
+          <img src="/images/gallery/neuron-culture.jpg" alt="Primary neuron culture" loading="lazy"/>
+          <div class="gallery-overlay">
+            <span>Neuron Culture</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="/gallery">
+          <img src="/images/gallery/gfp-neurons.jpg" alt="GFP-positive transfected neurons" loading="lazy"/>
+          <div class="gallery-overlay">
+            <span>Transfection · GFP</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="/gallery">
+          <img src="/images/gallery/lightsheet-3d.jpg" alt="Light-sheet 3D reconstruction" loading="lazy"/>
+          <div class="gallery-overlay">
+            <span>Light-Sheet · 3D Imaging</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item see-more-tile">
+        <a href="/gallery">
+          <div class="see-more-content">
+            <span class="see-more-icon">→</span>
+            <span class="see-more-text">See all</span>
+          </div>
+        </a>
+      </div>
+
+    </div><!-- end gallery-grid -->
+  </div><!-- end container -->
+</section>
+
+<style>
+.gallery-preview-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.gallery-preview-section .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.gallery-preview-section .section-title h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.gallery-preview-section .section-title p {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  aspect-ratio: 1 / 1;
+  background-color: #dee2e6;
+  cursor: pointer;
+}
+
+.gallery-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.65));
+  color: #fff;
+  padding: 20px 12px 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+}
+
+/* See more tile */
+.see-more-tile {
+  background-color: #007bff;
+}
+
+.see-more-tile a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.see-more-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+}
+
+.see-more-icon {
+  font-size: 2rem;
+  font-weight: 300;
+  transition: transform 0.3s ease;
+}
+
+.see-more-tile:hover .see-more-icon {
+  transform: translateX(6px);
+}
+
+.see-more-text {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+</style>
