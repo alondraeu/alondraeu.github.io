@@ -22,13 +22,19 @@ markup:
     renderer:
       unsafe: true
 
+
 Menus:
   main:
+    - identifier: blog
+      name: Notes
+      title: Notes
+      url: /blogs
+      weight: 1
     - identifier: gallery
       name: Wet Lab
       title: Wet Lab Gallery
       url: /gallery
-      weight: 1
+      weight: 2
 
 params:
   title: "Alondra Escobar"
@@ -245,7 +251,7 @@ params:
       count: 3
       title: Recent Posts
       enable: true
-      disableFeaturedImage: false
+      disableFeaturedImage: true
     socialNetworks:
       github: https://github.com/alondraeu
       linkedin: https://www.linkedin.com/in/alondraescobar
