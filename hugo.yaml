@@ -139,10 +139,10 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I'm a neuroscientist at Rice University studying how the mammalian brain develops and encodes information. I build custom instruments, genomic pipelines, and imaging tools.
+      I'm an interdisciplinary scientist with experience building experimental and computational platforms spanning advanced microscopy, neurogenetics, and genomic data analysis.
     skills:
       enable: true
-      title: "Some skills and tools i use:"
+      title: "Skills and tools i use:"
       items:
         - "Calcium imaging"
         - "In vivo rodent experiments"
@@ -196,9 +196,11 @@ params:
       - title: "Ph.D. Bioengineering"
         school:
           name: "Rice University"
+          logo: /images/rice_logo.jpg
         content: |-
           I study mammalian brain development and neurodegenerative conditions.     
- 
+        
+
   # Achievements - disabled
  
   # projects
