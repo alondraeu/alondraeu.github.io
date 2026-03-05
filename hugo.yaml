@@ -115,10 +115,10 @@ params:
     title: "Alondra Escobar"
     subtitle: "I build tools to understand our brain 🧠"
     content: "Neuroscientist · Microscopist · Bioinformatics · Brain Computer Interfaces"
-    image: /images/hero.svg
+    image: /images/hero.jpg
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
+    roundImage: true # Make hero image circular | default false
     button:
       enable: false
       name: "Resume"
@@ -235,9 +235,10 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
-    btnName: "Email me"
-    btnLink: mailto:alondrarecruiters@gmail.com
+    title: "Contact"
+    content: "Want to connect? Reach out to me on LinkedIn — I'd love to hear from you!"
+    btnName: "Connect on LinkedIn"
+    btnLink: https://www.linkedin.com/in/alondraescobar
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
