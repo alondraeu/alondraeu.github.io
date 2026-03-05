@@ -5,12 +5,21 @@ draft: false
 description: "My gallery :earth_asia:"
 layout: "gallery"
 galleryImages:
- - src: https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg
- - src: https://img.etimg.com/thumb/msid-68721417,width-650,imgsize-1016106,,resizemode-4,quality-100/nature1_gettyimages.jpg
- - src: https://thumbs.dreamstime.com/b/team-ants-council-collective-decision-work-17037482.jpg
- - src: https://thumbs.dreamstime.com/b/summer-day-smiling-women-relax-wearing-red-dress-fashion-standing-wooden-bridge-over-sea-blue-sky-background-summer-107411998.jpg
- - src: https://thumbs.dreamstime.com/b/young-woman-playing-dog-pet-beach-sunrise-sunset-girl-dog-having-fun-seasid-seaside-cute-neglected-stay-66480218.jpg
- - src: https://thumbs.dreamstime.com/b/funny-picture-taken-sunrise-frozen-lake-perspective-rider-retro-bicycle-sunrise-personal-211066044.jpg 
+  - src: /images/gallery/if-brain-slice.jpg
+    title: "Immunofluorescence staining of fixed neurons"
+    description: "Triple-label IF showing MAP2, DAPI, and synaptic markers in primary cortical neurons."
+  - src: /images/gallery/gevi-hydra.jpg
+    title: "GEVI expression in Hydra vulgaris"
+    description: "Knock-in voltage indicator expression in a novel non-model organism."
+  - src: /images/gallery/neuron-culture.jpg
+    title: "Primary neuron culture"
+    description: "Dissociated striatal neurons at DIV14."
+  - src: /images/gallery/gfp-neurons.jpg
+    title: "Neuron transfection"
+    description: "mRNA transfection of medium spiny neurons with GFP reporter."
+  - src: /images/gallery/lightsheet-3d.jpg
+    title: "Light-sheet 3D reconstruction"
+    description: "Whole-brain cleared tissue imaged with light-sheet microscopy."
 viewer : true
 viewerOptions : {
     title: false

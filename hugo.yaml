@@ -139,9 +139,22 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I'm an interdisciplinary scientist with experience building experimental and computational platforms spanning advanced microscopy, neurogenetics, and genomic data analysis.
+      I'm an interdisciplinary scientist building experimental and computational platforms 
+      at the intersection of neuroscience, optics, and genomics. I develop custom imaging 
+      instruments, run in vivo genetic experiments, and build bioinformatics pipelines — 
+      from the bench to the codebase.
+
+
+
+      **Neuroscience & Optical Methods:** Calcium imaging · GEVIs · Optogenetics · In vivo rodent experiments · Transgenic mouse generation · Light-sheet microscopy
+
+      **Molecular & Cell Biology:** CRISPR genome editing · Cloning · Vector design · Neuron culture · Viral vectors · Immunofluorescence · qPCR
+
+      **Genomics & Sequencing:** NGS library prep · RNAseq · CUT&RUN · MethylSeq · ATACseq
+
+      **Computational:** NGS workflows · GUI & API development · MATLAB · R · Python
     skills:
-      enable: true
+      enable: false
       title: "Skills and tools:"
       items:
         - "Calcium imaging"
@@ -198,8 +211,9 @@ params:
           name: "Rice University"
           logo: /images/rice_logo.jpg
         content: |-
-          I study mammalian brain development and neurodegenerative conditions.     
-        
+          Advised by Dr. Laura Lavery
+
+          Dissertation: Methylation mechanisms in mammalian brain development for neurodegenerative conditions.
 
   # Achievements - disabled
  
