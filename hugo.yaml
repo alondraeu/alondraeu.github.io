@@ -142,7 +142,7 @@ params:
       I'm an interdisciplinary scientist with experience building experimental and computational platforms spanning advanced microscopy, neurogenetics, and genomic data analysis.
     skills:
       enable: true
-      title: "Skills and tools i use:"
+      title: "Skills and tools:"
       items:
         - "Calcium imaging"
         - "In vivo rodent experiments"
@@ -154,7 +154,7 @@ params:
         - "RNAseq"
         - "CUT&RUNseq"
         - "MethylSeq"
-        - "ATATseq"
+        - "ATACseq"
         - "Viral vectors"
         - "Optogenetics"
 
