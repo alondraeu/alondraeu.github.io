@@ -221,32 +221,8 @@ params:
   projects:
     enable: true
     # title: "Custom Name"
-    items:
-      - title: "NGS analysis platform"
-        content: "Automated genomic workflows (RNAseq, CUT&RUN, MethylSeq, ATACseq)"
-        image: /images/projects/profile.png
-        badges:
-          - "Python"
-          - "R"
-          - "API"
-          - "GUI"
-          - "RNAseq"
-          - "ATACseq"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/alondraeu
 
-      - title: "Neuron Tracking Pipeline"
-        content: "Automated pipeline for single-cell neuron tracking"
-        image: /images/projects/converter.jpg
-        badges:
-          - "Python"
-          - "Image Analysis"
-          - "AI"
-          - "Cell Tracking"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/alondraeu
+
 
   #Contact
   contact:
