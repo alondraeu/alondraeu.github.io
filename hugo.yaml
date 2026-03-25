@@ -219,7 +219,7 @@ params:
  
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
 
 
@@ -228,7 +228,7 @@ params:
   contact:
     enable: true
     title: "Contact"
-    content: "Want to connect? Reach out to me on LinkedIn — I'd love to hear from you!"
+    content: "Want to connect? Reach out to me on LinkedIn"
     btnName: "Connect on LinkedIn"
     btnLink: https://www.linkedin.com/in/alondraescobar
     # formspree:
