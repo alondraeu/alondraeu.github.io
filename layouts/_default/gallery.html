@@ -20,7 +20,11 @@
         {{ range $index, $image := .Params.galleryImages }}
         <div class="gallery-entry {{ if modBool $index 2 }}reverse{{ end }}">
             <div class="gallery-entry-image">
+                {{ if or (strings.HasSuffix $image.src ".mp4") (strings.HasSuffix $image.src ".webm") }}
+                <video src="{{ $image.src }}" autoplay loop muted playsinline style="width:100%; height:280px; object-fit:cover; border-radius:6px;"></video>
+                {{ else }}
                 <img src="{{ $image.src }}" alt="{{ $image.title }}" class="{{ if $.Params.viewer | default true }}viewer-enabled-image{{ end }}">
+                {{ end }}
             </div>
             <div class="gallery-entry-text">
                 {{ if $image.title }}<h4>{{ $image.title }}</h4>{{ end }}
