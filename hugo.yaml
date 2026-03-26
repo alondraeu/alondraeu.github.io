@@ -25,11 +25,11 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Notes
-      title: Notes
-      url: /blogs
-      weight: 1
+   # - identifier: blog
+   #   name: Notes
+   #   title: Notes
+   #   url: /blogs
+   #   weight: 1
     - identifier: gallery
       name: Wet Lab
       title: Wet Lab Gallery
