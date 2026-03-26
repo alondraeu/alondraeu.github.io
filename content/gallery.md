@@ -1,8 +1,8 @@
 ---
-title: "Image Gallery"
+title: "In the lab"
 date: 2022-06-25T18:35:46+05:30
 draft: false
-description: "My gallery :earth_asia:"
+description: "Some of the bioengineering tools I use and develop."
 layout: "gallery"
 galleryImages:
   - src: /images/gallery/if-brain-slice.jpg
