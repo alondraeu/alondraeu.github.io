@@ -6,7 +6,7 @@ description: "Some of the bioengineering tools I use and develop."
 layout: "gallery"
 galleryImages:
   - src: /images/gallery/if-brain-slice.jpg
-    title: "Immunofluorescence imaging of whole mouse brain with at high resolution, sagittal view"
+    title: "Immunofluorescence imaging of whole mouse brain at high resolution, sagittal view"
     description: "Labels show nuclei marker and a genetically modified protein."
   - src: /images/gallery/gevi-hydra.jpg
     title: "Voltage Indicator expression in small animal Hydra "
@@ -19,7 +19,7 @@ galleryImages:
     description: "high mRNA transfection rate of Medium Spiny Neurons with GFP reporter."
   - src: /images/gallery/lightsheet-3d.jpg
     title: "Light-sheet 3D reconstruction"
-    description: "Whole-brain cleared tissue imaged with light-sheet microscopy."
+    description: "Neural network of small animal Hydra body imaged in 3D."
   - src: /images/gallery/hydra-tracking-video.mp4
     title: "Tracking of single neurons in Hydra"
     description: "Tracking single neuron calcium activity of coordinated neural circuit in small animal Hydra."
