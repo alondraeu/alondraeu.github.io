@@ -1,12 +1,13 @@
 ---
 title: "From Cow Pancreases to Designer Peptides: How We Learned to Engineer Weight Loss"
-date: 2025-12-05
+date: 2025-09-10
 draft: false
 author: "Alondra Escobar"
 tags: ["GLP-1", "drug development", "peptide engineering", "obesity"]
 image: /images/notes/post.jpg
 description: "How decades of failures — and a detour through lizard venom — led to the most effective weight loss drugs ever developed."
 ---
+# From Cow Pancreases to Designer Peptides: How We Learned to Engineer Weight Loss
 
 For most of the twentieth century, the drugs we reached for to treat obesity worked the way a sledgehammer works: broadly, imprecisely, and often destructively. It took decades of failures — and a detour through lizard venom — to understand that the body already had a system for regulating weight, and that the real engineering challenge was learning to speak its language.
 

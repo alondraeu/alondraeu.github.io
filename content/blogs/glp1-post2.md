@@ -1,12 +1,13 @@
 ---
 title: "The GLP-1 Race: Delivery, Data, and the Fight for the Market"
-date: 2026-01-15
+date: 2025-09-15
 draft: false
 author: "Alondra Escobar"
 tags: ["GLP-1", "drug development", "Novo Nordisk", "Eli Lilly", "obesity"]
 image: /images/notes/post.jpg
 description: "Two pharmaceutical companies, one receptor pathway, and a clinical data trail that has produced the most effective weight loss drugs ever tested in humans."
 ---
+# The GLP-1 Race: Delivery, Data, and the Fight for the Market
 
 The first post in this series ended with the molecule. Semaglutide represented the current apex of a decades-long engineering effort to take a two-minute gut hormone and turn it into a once-weekly drug — and the structural logic behind that transformation was reasonably well understood. What it did not address is what happened next: two pharmaceutical companies, one receptor pathway, and a clinical data trail that has produced the most effective weight loss drugs ever tested in humans. The competition now is not about whether GLP-1 agonism works. It is about who can extend it furthest, and how.
 
