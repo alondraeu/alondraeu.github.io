@@ -137,8 +137,10 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me2.png"
     content: |-
+      That's me and my friend Rocky, besides going to the park with him...
+      
       I'm an interdisciplinary scientist building experimental and computational platforms 
       at the intersection of neuroscience, optics, and genomics. I develop custom imaging 
       instruments, run in vivo genetic experiments, and build bioinformatics pipelines 
@@ -148,7 +150,7 @@ params:
 
       **Neuroscience & Optical Methods:** Calcium imaging · GEVIs · Optogenetics · In vivo rodent experiments · Transgenic mouse generation · Light-sheet microscopy
 
-      **Molecular & Cell Biology:** CRISPR genome editing · Cloning · Vector design · Neuron culture · Viral vectors · Immunofluorescence · qPCR
+      **Molecular & Cell Biology:** CRISPR genome editing · Cloning · Vector design · Neuron culture · Viral vectors · Immunohistochemistry · qPCR
 
       **Genomics & Sequencing:** NGS library prep · RNAseq · CUT&RUN · MethylSeq · ATACseq
 
